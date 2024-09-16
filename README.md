@@ -1,2 +1,4 @@
-# mobile-robotics-blog
-This is the landing page for the Mobile robotics blog (University lessons)
+# Mobile Robotics Blog (Source)
+
+In this repository is contained all the source code for generating the blog. Note that each page is rendered from .md files at [/pages](/pages).
+

@@ -1,6 +1,4 @@
-<img class="logo" src="images/landing-logo.png" alt="Logo Robótica Movil">
-
-# 🛠️ Introduction
+# 🛠️ Welcome
 <hr>
 
 Welcome to the main repository for our cutting-edge project on the implementation of ECM (Execution-Cognition Machine) as a strategic approach towards the development of Computer Autonomous AI. This initiative represents a significant leap in crafting an intelligent system that not only mimic but also evolve human-like cognitive functionalities autonomously in computer interaction.

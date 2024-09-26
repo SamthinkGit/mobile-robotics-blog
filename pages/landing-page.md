@@ -1,18 +1,28 @@
 # 🛠️ Welcome
 <hr>
 
-Welcome to the main repository for our cutting-edge project on the implementation of ECM (Execution-Cognition Machine) as a strategic approach towards the development of Computer Autonomous AI. This initiative represents a significant leap in crafting an intelligent system that not only mimic but also evolve human-like cognitive functionalities autonomously in computer interaction.
+Welcome to the official blog for **Mobile Robotics**! This is the place where you'll find all the information, resources, and updates related to the practical lessons, algorithms, and techniques used in the university course _Mobile Robotics_.
 
-The project revolves around designing, testing, and refining theoretical models that translate complex human problem-solving capabilities into computational strategies executable by AI. We integrate advanced AI frameworks, particularly focusing on AutoGPT as the backbone for adaptive and scalable solutions. Our system architecture is robust, accommodating rapid iterations and rigorous validations through continuous integration and deployment mechanisms.
+On the right, you'll see a list of navigation links that will be updated as new practices are completed. Stay tuned for more content and feel free to explore as we dive deeper into the exciting world of mobile robotics!
 
-For detailed insights into our methodologies and system functionalities, please refer to the README, the documentation included in this repository or surf through the pages of this Wiki.
+Here's a little snippet of code to give you a taste of what's to come:
 
-```html
-<head>
-    <title>Mobile Robotics Blog</title>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0º" name="viewport">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/github-dark.min.css">
-    <link rel="stylesheet" href="/styles/landing-page.css">
-</head>
+```python
+import HAL # Hardware Abstraction Layer
+
+readen = False
+
+while True:
+    HAL.move("To the GUI at your right")
+    HAL.warning("Ensure using a PC, phone version of this page may fail :/ ")
+    if readen:
+        start()
 ```
+
+Stay curious, keep learning, and most importantly—have fun!
+
+
+## Remember
+<hr>
+
+The source code of this blog is at [this repository](https://github.com/SamthinkGit/mobile-robotics-blog).

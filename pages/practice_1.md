@@ -12,7 +12,7 @@ The idea behind this algorithm is to move forward until hitting a wall, then cov
 
 
 <div align="center">
-    <img src="../images/practice_1_semicircles.png" height=550px alt="Semicircles Algorithm">
+    <img src="/images/practice_1_semicircles.png" height=550px alt="Semicircles Algorithm">
 </div>
 
 > **Weakness**: The graph generated can become too complex and inefficient for certain layouts.
@@ -25,7 +25,7 @@ The idea behind this algorithm is to move forward until hitting a wall, then cov
 This algorithm simplifies the semicircles method by making it more robust. Instead of half circles, it uses incremental speed combined with a rotational movement to create spirals. The main downside is its inability to clean corners and its high sensitivity to getting stuck in tight spaces.
 
 <div align="center">
-    <img src="../images/practice_1_spiral.png" height=300px alt="Spiral Algorithm">
+    <img src="/images/practice_1_spiral.png" height=300px alt="Spiral Algorithm">
 </div>
 
 > **Weakness**: Struggles with cleaning corners and getting stuck in confined areas.
@@ -39,7 +39,7 @@ This algorithm improves on the spiral method by introducing 90º rotations to fo
 
 
 <div align="center">
-    <img src="../images/practice_1_rombus.png" height=450px alt="Angular Spiral Algorithm">
+    <img src="/images/practice_1_rombus.png" height=450px alt="Angular Spiral Algorithm">
 </div>
 
 > **Strength**: Achieves a better balance between exploration and coverage.

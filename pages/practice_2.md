@@ -14,15 +14,17 @@ Since this idea has not been proven with high scored results, we will only summa
 This analysis is based on various OpenCV filters. After the completion of the Vision core structures, the following detection could be reached:
 
 <div align="center">
-    <img src="../images/practice_2_car_image.png" height="300px">
+    <img src="https://github.com/user-attachments/assets/0f71a5cd-9ce7-414d-b29a-fa5be4c178fd" height="300px">
 </div>
+
 
 ### 2. Heuristic
 The heuristic was done by manually defining a non-polinomic curvature function with the linear and angular velocity as inputs:
 
 <div align="center">
-    <img src="../images/practice_2_prediction.png" alt="predictive heuristic" height="300px">
+    <img src="https://github.com/user-attachments/assets/3b0cbc72-7645-48f1-a2f7-2315cded29ec" alt="predictive heuristic" height="300px">
 </div>
+
 
 ### 3/4. Error and pid 
 For the prediction, a square distance error was computed over the distance between prediction and line. For the curvature, the maximum value of the second derivative of the line was used as velocity input. Additionally an anti-oscilator pid was used to minimize the oscilations of the car.
@@ -49,20 +51,22 @@ The class `FrequencyTester` has been implemented to print in live the final freq
 2. By using the first approach, we maintain a frequency between 15-25hz.
 
 <div align="center">
-    <img src="../images/practice_2_freq_1.png" alt="predictive heuristic" height="300px">
+    <img src="https://github.com/user-attachments/assets/24009e9f-0395-42d9-8fce-dc115745cf25" alt="predictive heuristic" height="300px">
 </div>
 
 2. Just by using use functions such as `cv2.cvtColor()` or `cv2.inRange()` over the image, the frequency falls to 45-60hz.
 
 <div align="center">
-    <img src="../images/practice_2_freq_2.png" alt="predictive heuristic" height="300px">
+    <img src="https://github.com/user-attachments/assets/9b4b7188-a534-408d-aaca-5a1af21f1d2b" alt="predictive heuristic" height="300px">
 </div>
+
 
 3. Using a row based analysis without image traversal (`FastVision`), the frequency is raised over 500-600hz.
 
 <div align="center">
-    <img src="../images/practice_2_freq_3.png" alt="predictive heuristic" height="300px">
+    <img src="https://github.com/user-attachments/assets/725d1219-2dca-4800-afd3-afebee7a1ae1" alt="predictive heuristic" height="300px">
 </div>
+
 
 4. When using the functionalities `HAL.setW()` and `HAL.setV()` the frequency falls around 10 times worse (with valleys of 40hz).
 
@@ -96,11 +100,12 @@ Maximum Speed: 144km/h: `HAL.setV(40)`
 <hr>
 
 <div align="center">
-    <p><strong>Travelling the Map</strong></p>
+    <p><strong>Results Video</strong></p>
 </div>
-
-<hr>
 
 <div align="center">
-    <p><strong>Some </strong></p>
+    <video width="600" controls>
+        <source src="https://github.com/user-attachments/assets/c28e5dd9-8002-4a03-b47b-e5e0c6588adf" type="video/mp4">
+    </video>
 </div>
+

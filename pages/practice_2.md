@@ -2,6 +2,8 @@
 
 This report will make a summary about the two approximations used in order to design a program to make the formula-1 racing car complete the race track in the shortest time possible.
 
+<hr>
+
 # First Approach: Predictive Running (Summarized)
 Since this idea has not been proven with high scored results, we will only summarize this approach and its core components. For completing the preddictive running the following path has been followed:
 
@@ -9,6 +11,8 @@ Since this idea has not been proven with high scored results, we will only summa
 2. Define a heuristic that will predict the next position of the race car
 3. Compare the prediction and the target line, and adjuts the current angular velocity to minimize the differences (PID)
 4. Compute the curvature of the line and use it to control the current velocity.
+
+<hr>
 
 ### 1. Analysing the image
 This analysis is based on various OpenCV filters. After the completion of the Vision core structures, the following detection could be reached:

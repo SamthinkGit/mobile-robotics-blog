@@ -93,7 +93,7 @@ Using the final VFF expression, we compute a directive vector that will guide th
 
 <div align="center">
     <video width="600" controls>
-        <source src="https://github.com/user-attachments/assets/c28e5dd9-8002-4a03-b47b-e5e0c6588adf" type="video/mp4">
+        <source src="https://github.com/user-attachments/assets/9d0c5c38-2d10-4f4a-88b2-aaf203bf9525" type="video/mp4">
     </video>
 </div>
 

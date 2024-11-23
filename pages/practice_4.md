@@ -1,4 +1,4 @@
-# Practice 4: Global Navigation ⛵️
+# Practice 4: Global Navigation
 
 This practice aims to implement a **Gradient Path Planning (GPP)** algorithm for a robotic taxi to navigate a city environment and reach a user-selected destination. This solution focuses on using **Wave Front Algorithm** to construct the costmap.
 
@@ -10,7 +10,7 @@ The solution is divided into several key steps:
 
 Let's dive into the implementation of each part.
 
-## 1. Cost Map Calculation with Wave Front Algorithm 🚀
+## 1. Cost Map Calculation with Wave Front Algorithm
 
 
 
@@ -30,7 +30,7 @@ Additionally, already explored and non-interesting cells are marked as completed
 
 > This idea has been implemented in the `GradientMap` class, specifically in the `build_gradient_maps()` method, where a queue-based expansion system creates the cost map.
 
-## 2. Expansion of Obstacles 🚪
+## 2. Expansion of Obstacles
 
 A direct use of the cost map would guide the taxi very close to obstacles, such as buildings or other fixed barriers. To address this, we implemented **obstacle dilation** to create an expanded buffer around these obstacles, increasing their effective size and making the algorithm prefer paths that keep the taxi at a safe distance.
 
@@ -46,7 +46,7 @@ The obstacle expansion is divided into several steps, gradually increasing the e
 
 > This idea has been implemented in the `GradientMap` class, specifically in the `_dilate_map()` method, which uses convolution-like operations to expand the obstacles' effect.
 
-## 3. Gradient-Based Navigation 🚗
+## 3. Gradient-Based Navigation
 
 Once the cost map is built, the **gradient navigation** approach is used to determine the route. Instead of pre-calculating the entire route from start to finish, the taxi navigates by continuously moving towards the neighboring cell with the **lowest cost**.
 

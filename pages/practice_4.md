@@ -71,8 +71,9 @@ This continuous gradient descent technique helps the car navigate smoothly witho
 
 The implementation shows the taxi navigating the city environment successfully, using the gradient-based approach. The car's trajectory adapts to the changes in cost, allowing it to reach the target while keeping a safe distance from obstacles.
 
+
 <div align="center">
     <video width="600" controls>
-        <source src="https://github.com/user-attachments/assets/demonstration_video.mp4" type="video/mp4">
+        <source src="https://github.com/user-attachments/assets/eb0a6966-c468-4efc-b504-93027ce344d3" type="video/mp4">
     </video>
 </div>

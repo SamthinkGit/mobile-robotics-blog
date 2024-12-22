@@ -145,9 +145,10 @@ def recompute_num_of_particles():
 
 # Results:
 
+
 <div align="center">
     <video width="600" controls>
-        <source src="https://github.com/user-attachments/assets/demonstration_video.mp4" type="video/mp4">
+        <source src="https://github.com/user-attachments/assets/a741ccc8-86ba-4f7b-bb6c-b5b4977033e7" type="video/mp4">
     </video>
 </div>
 
